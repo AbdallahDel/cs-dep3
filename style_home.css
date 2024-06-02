@@ -261,6 +261,45 @@ p {
     width: 100%;
     height: 60vh;
 }
+.search-bar {
+    position: absolute;
+    top: 10px; /* Adjust this value as needed to align with the header padding */
+    right: 20px; /* Adjust this value as needed to align with the header padding */
+}
+
+#search-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: white; /* White icon */
+    margin-top: 33px;
+}
+
+#search-icon .fas {
+    font-size: 24px; /* Adjust the size of the icon */
+}
+
+#search-form {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease;
+    background-color: #fff; /* White background for the form */
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+#search-form input[type="text"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #fff; /* White input background */
+    color: #000; /* Black text inside input */
+}
 
 
 
